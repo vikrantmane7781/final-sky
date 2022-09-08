@@ -1,0 +1,89 @@
+.single-movie-section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+ul.movie-meta-details li {
+  display: inline;
+  padding: 0 10px;
+  border-right: 1px solid white;
+  color: #a3b2c4;
+  font-size: 1rem;
+}
+
+ul.movie-meta-detals li:first-child {
+  padding-left: 0;
+}
+
+ul.movie-meta-detals li:last-child {
+  border-right: none;
+}
+
+.movie-desc-image {
+  text-align: center;
+  margin: 10px;
+}
+
+.sub-info a {
+  color: #78b6fa !important;
+  margin-right: 15px;
+}
+
+h2.movie-title {
+  margin-bottom: 20px;
+}
+
+.movie-info {
+  margin-top: 30px;
+}
+
+p.small-info {
+  color: #a3b2c4;
+}
+
+.super-info .col-md-2 {
+  width: 25%;
+}
+
+.super-info .col-md-10 {
+  width: 75%;
+}
+
+@media screen and (max-width: 600px) {
+  .movie-desc-image {
+    text-align: center;
+    margin: 10px;
+    width: 254px;
+    margin: 0 auto 20px auto;
+  }
+}
+
+/* trailor */
+
+.product__trailer--link {
+  display: inline-block;
+  font-size: 1rem;
+}
+.top-section-space {
+  margin-top: 0px;
+  margin-left: 10px;
+  background-color: transparent;
+  border: none;
+}
+.trailor .top-section-space {
+  color: #78b6fa;
+}
+.product__trailer--link .icon {
+  font-size: 1.5rem;
+  margin-right: 5px;
+}
+.product__trailer--link .text {
+  margin-left: 4px;
+}
+/* .fa-regular {
+  font-family: "Font Awesome 6 Free";
+  font-weight: 400;
+} */
+.product__trailer--link:hover {
+  color: #f4ce24;
+}

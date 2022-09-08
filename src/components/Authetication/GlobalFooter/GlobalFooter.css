@@ -1,0 +1,42 @@
+.globalFooter {
+  margin: 0.625em auto;
+  display: block;
+  width: 60em;
+  border-top: 1px solid #cccccc;
+}
+/* .globalFooter .globalFooterBottom {
+  padding: 10px 0;
+  text-align: center;
+  overflow: auto;
+} */
+.globalFooter .globalFooterBottom {
+  margin: 0 0 0 3.125em;
+  width: auto;
+}
+
+.copyright {
+  float: right;
+  padding-top: 5px;
+  font-size: 0.625em;
+  color: #666666;
+}
+.signin #globalFooter #copyright {
+  left: 48em;
+}
+.globalFooter ul {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+.globalFooter ul li {
+  float: left;
+  list-style-type: none;
+}
+.globalFooter ul li:first-child a {
+  border-left: 0 solid #cccccc;
+}
+.globalFooter ul li a,
+#globalFooter #copyright {
+  font-size: 0.625em;
+  color: #0061a6;
+}
